@@ -25,6 +25,9 @@ Merge `rideshare_data.csv` with `taxi_zone_lookup.csv` to enhance location data 
 - Join conditions complexity and optimization issues addressed by using broadcast join.
 #### Insights Gained:
 - Mastered data merging techniques and performance optimization in Spark through broadcast joins.
+<img width="333" alt="image" src="https://github.com/user-attachments/assets/e776087f-eaed-421e-8dcd-f92d73a8c8b1" />
+
+
 
 ### Task 2: Aggregation of Data
 #### Question:
@@ -35,6 +38,12 @@ Aggregate data to compute the number of trips per business per month, calculate 
 - Date formatting issues resolved by casting the date column to the correct type.
 #### Insights Gained:
 - Deepened understanding of Spark's aggregation capabilities to draw business insights.
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/20e47973-5b49-4d97-adb4-0e1c023bd1f0" />
+<img width="393" alt="image" src="https://github.com/user-attachments/assets/258be418-9a2e-4943-83c6-9c9056cc35dc" />
+
+
+
+
 
 ### Task 3: Top-K Processing
 #### Question:
@@ -45,6 +54,8 @@ Identify the top 5 popular pickup and dropoff boroughs each month and analyze th
 - Developing the logic for calculating routes; resolved through column concatenation.
 #### Insights Gained:
 - Enhanced skills in using SQL queries within Spark for complex data ranking and aggregation.
+  <img width="342" alt="image" src="https://github.com/user-attachments/assets/cae2e0d4-785e-407c-b36d-e0e864135865" />
+
 
 ### Task 4: Average of Data
 #### Question:
@@ -53,6 +64,8 @@ Calculate average driver pay and trip lengths during different times of the day 
 - `groupBy`, `agg`, `avg`, `orderBy`
 #### Insights Gained:
 - Analyzed time-based variations in pay and trip length to suggest optimal operating times for drivers.
+  <img width="452" alt="image" src="https://github.com/user-attachments/assets/daba32e4-db18-4ee5-b682-a2bc218f7928" />
+
 
 ### Task 5: Finding Anomalies
 #### Question:
@@ -63,6 +76,8 @@ Analyze and identify anomalies in average waiting times during January.
 - Configuration issues with S3 buckets, resolved through careful documentation review.
 #### Insights Gained:
 - Gained proficiency in anomaly detection and understanding the impact of external events on service metrics.
+    
+       
 
 ### Task 6: Filtering Data
 #### Question:
