@@ -41,10 +41,6 @@ Aggregate data to compute the number of trips per business per month, calculate 
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/20e47973-5b49-4d97-adb4-0e1c023bd1f0" />
 <img width="393" alt="image" src="https://github.com/user-attachments/assets/258be418-9a2e-4943-83c6-9c9056cc35dc" />
 
-
-
-
-
 ### Task 3: Top-K Processing
 #### Question:
 Identify the top 5 popular pickup and dropoff boroughs each month and analyze the top 30 most profitable routes.
@@ -72,11 +68,7 @@ Calculate average driver pay and trip lengths during different times of the day 
 Analyze and identify anomalies in average waiting times during January.
 #### APIs Used:
 - `filter`, `groupby`, `avg`, `orderby`
-#### Challenges:
-- Configuration issues with S3 buckets, resolved through careful documentation review.
-#### Insights Gained:
-- Gained proficiency in anomaly detection and understanding the impact of external events on service metrics.
-    
+  
        
 
 ### Task 6: Filtering Data
@@ -84,20 +76,7 @@ Analyze and identify anomalies in average waiting times during January.
 Explore trip data by filtering counts that fall within specific ranges for different boroughs and times of the day.
 #### APIs Used:
 - `filter`, `groupby`, `count`, `show`, `withColumn` with `lit`
-#### Challenges:
-- Mastering the `filter` function to effectively specify data subsets.
 #### Insights Gained:
 - Improved data filtering techniques to focus on specific aspects of the data.
 
-## Running the Analysis
-To execute the Spark jobs, use the command:
-```bash
-spark-submit --master <master-url> src/<spark-script>.py
-```
 
-## Contributing
-Contributions to this project are welcome. Please fork the repository, make your changes, and submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-```
