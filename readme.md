@@ -1,4 +1,4 @@
-```markdown
+
 # NYC Rideshare Analysis Project
 
 ## Overview
